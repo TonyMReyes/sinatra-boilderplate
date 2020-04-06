@@ -9,6 +9,7 @@ class ApplicationTest < MiniTest::Test
   def app
     Application
   end
+
   def test_get_index_is_ok
     get '/'
     assert last_response.ok?

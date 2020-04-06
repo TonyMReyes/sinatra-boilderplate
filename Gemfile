@@ -14,6 +14,8 @@ gem 'sinatra-contrib', '~> 2.0', '>= 2.0.8.1'
 gem 'sinatra-param', '~> 1.6'
 # HTTP Request Wrapper
 gem 'rack', '~> 2.2', '>= 2.2.2'
+# Like Make, but for Ruby
+gem 'rake', '~> 13.0', '>= 13.0.1'
 # HTTP 1.1 server for Ruby/Rack applications
 gem 'puma', '~> 4.3', '>= 4.3.3'
 
