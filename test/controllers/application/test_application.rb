@@ -14,4 +14,9 @@ class ApplicationTest < MiniTest::Test
     get '/'
     assert last_response.ok?
   end
+
+  def test_get_404
+    get '/test'
+    assert_equal(404,last_response.status)
+  end
 end
