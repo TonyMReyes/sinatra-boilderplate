@@ -19,7 +19,7 @@ gem 'require_all', '~> 3.0'
 # Like Make, but for Ruby
 gem 'rake', '~> 13.0', '>= 13.0.1'
 # HTTP 1.1 server for Ruby/Rack applications
-gem 'puma', '~> 4.3', '>= 4.3.3'
+gem 'puma', '~> 4.3'
 
 # Development Gems
 group :development do
