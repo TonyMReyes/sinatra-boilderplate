@@ -13,7 +13,7 @@ gem 'sinatra-contrib', '~> 2.0', '>= 2.0.8.1'
 # declare, validate, and transform endpoint parameters
 gem 'sinatra-param', '~> 1.6'
 # HTTP Request Wrapper
-gem 'rack', '~> 2.2', '>= 2.2.2'
+gem 'rack', '~> 2.2'
 # load all code
 gem 'require_all', '~> 3.0'
 # Like Make, but for Ruby
