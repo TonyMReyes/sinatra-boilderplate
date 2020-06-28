@@ -13,13 +13,13 @@ gem 'sinatra-contrib', '~> 2.0', '>= 2.0.8.1'
 # declare, validate, and transform endpoint parameters
 gem 'sinatra-param', '~> 1.6'
 # HTTP Request Wrapper
-gem 'rack', '~> 2.2', '>= 2.2.2'
+gem 'rack', '~> 2.2'
 # load all code
 gem 'require_all', '~> 3.0'
 # Like Make, but for Ruby
 gem 'rake', '~> 13.0', '>= 13.0.1'
 # HTTP 1.1 server for Ruby/Rack applications
-gem 'puma', '~> 4.3', '>= 4.3.3'
+gem 'puma', '~> 4.3'
 
 # Development Gems
 group :development do
